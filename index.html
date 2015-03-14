@@ -9,8 +9,6 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -28,9 +26,11 @@
         <header class="mainHeader">
             <div class="mainContainer">
 
-                <h1 class="logoReplace"><a href="index.html">Greenville GROK</a></h1>
+                <h1><a href="index.html" class="logoReplace">Greenville GROK</a></h1>
 
-                <nav id="main-nav">
+                <a href="#" id="navTrigger">Menu</a><!-- end navTrigger -->
+
+                <nav id="mainNav">
                     <ul>
                         <li><a href="#about">About</a></li>
                         <li><a href="#speakers">Speakers</a></li>
@@ -39,13 +39,9 @@
                         <li><a href="#contact">Contact</a></li>
                         <li class="register"><a href="https://account.unmatchedstyle.com/register/grok/">Register</a></li>
                     </ul>
-                </nav><!-- end main-nav -->
+                </nav><!-- end mainNav -->
                 
-                <div id="nav-trigger">
-                    <span>Menu</span>
-                </div><!-- end nav-trigger -->
-                
-                <nav id="nav-mobile"></nav>
+                <nav id="navMobile"></nav>
 
             </div><!-- end mainContainer -->
         </header><!-- end mainHeader -->

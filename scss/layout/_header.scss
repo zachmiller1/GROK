@@ -1,0 +1,108 @@
+/* ====================
+		Header
+======================= */
+
+.mainHeader {
+	background-color: $green;
+	width: 100%;
+	position: fixed;
+
+	.logoReplace {
+		display: block;
+		text-indent: -9999px;
+		background: url('../img/round-grok-logo-white.png') no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 50px;
+		width: 50px;
+
+		@media screen and (min-width: 768px) {
+			float: left;
+			position: absolute;
+			top: 0px;
+			left: -11px;
+			height: 70px;
+			width: 70px;
+		}
+
+		&:hover {
+			background-image: url('../img/round-grok-logo-tan.png');
+		}
+	}
+
+	a {
+		display: block;
+		padding: 1em 0 1em 0;
+		color: $white;
+		text-decoration: none;
+	}
+
+	.mainContainer {
+		position: relative;
+	}
+
+	#navTrigger {
+		position: absolute;
+		top: 12px;
+		right: 0;
+		display: block;
+		height: 32px;
+		background: url(../img/hamburger-icon-white-64px.png) no-repeat right center;
+		background-size: 32px 32px;
+		padding: 5px 38px 0 0;
+
+		@media screen and (min-width: 768px) {
+			display: none;
+		}
+
+		&:hover {
+			color: $tan;
+			background-image: url(../img/hamburger-icon-tan64px.png);
+		}
+	}
+
+	#mainNav {
+		background: $green;
+		width: 100%;
+		display: none;
+
+		@media screen and (min-width: 768px) {
+			display: block;
+		}
+
+		ul {
+			margin: 0;
+
+			@media screen and (min-width: 768px) {
+				float: right;
+			}
+		}
+
+		li {
+			@media screen and (min-width: 768px) {
+				display: inline;
+			}
+		}
+
+		li:last-child a {
+			border-bottom: none;
+			background-color: $red;
+		}
+
+		a {
+			padding: 0.75em;
+			border-bottom: 2px dashed $white;
+
+			@media screen and (min-width: 768px) {
+				display: inline-block;
+				border-bottom: none;
+				padding-top: 1.75em;
+				padding-bottom: 1.75em;
+
+				&:hover {
+					color: $tan;
+				}
+			}
+		}
+	}
+}
