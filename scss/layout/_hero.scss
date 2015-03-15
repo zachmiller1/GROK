@@ -1,0 +1,47 @@
+/* ======================
+		Hero Section
+========================= */ 
+
+.hero {
+	background-color: $tan;
+
+	h2 {
+		margin-top: 80px;
+		margin-bottom: 0;
+		font-size: 27px;
+		font-family: $specialfont;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+
+	.GROKtext {
+		background-image: url('../img/GROK.png');
+		background-position: center center;
+		background-size: cover;
+		width: 173px;
+		height: 53px;
+		margin: 0 auto;
+	}
+
+	.heroDate {
+		font-size: 19px;
+		margin-top: 5px;
+	}
+
+	.tickets {
+		font-size: 26px;
+		font-weight: 700;
+		letter-spacing: 0.5px;
+		margin-bottom: 0px;
+	}
+
+	.grokman {
+		background-image: url('../img/GrokMan.png');
+		background-position: center center;
+		background-size: cover;
+		width: 290px;
+		height: 220px;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+}

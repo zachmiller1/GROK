@@ -8,6 +8,7 @@
  *    user zoom.
  */
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400,700|Roboto+Slab:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -419,6 +420,19 @@ li {
   zoom: 1;
   /* ie 6/7 */ }
 
+/* =======================
+		Button Styles
+========================== */
+.button {
+  background: #75a48b;
+  padding: 0.825em 1.5em;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block; }
+  .button:hover {
+    background: #669a7e;
+    color: #d9cfb0; }
+
 /* ====================
 		Header
 ======================= */
@@ -495,5 +509,41 @@ li {
           padding-bottom: 1.75em; }
           .mainHeader #mainNav a:hover {
             color: #d9cfb0; } }
+
+/* ======================
+		Hero Section
+========================= */
+.hero {
+  background-color: #d9cfb0; }
+  .hero h2 {
+    margin-top: 80px;
+    margin-bottom: 0;
+    font-size: 27px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .hero .GROKtext {
+    background-image: url("../img/GROK.png");
+    background-position: center center;
+    background-size: cover;
+    width: 173px;
+    height: 53px;
+    margin: 0 auto; }
+  .hero .heroDate {
+    font-size: 19px;
+    margin-top: 5px; }
+  .hero .tickets {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px; }
+  .hero .grokman {
+    background-image: url("../img/GrokMan.png");
+    background-position: center center;
+    background-size: cover;
+    width: 290px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 40px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+/* =======================
+		Button Styles
+========================== */
+
+.button {
+	background: $green;
+	padding: 0.825em 1.5em;
+	text-decoration: none;
+	color: $white;
+	display: inline-block;
+
+	&:hover {
+		background: darken($green, 5%);
+		color: $tan;
+	}
+}
