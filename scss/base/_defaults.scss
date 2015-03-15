@@ -22,6 +22,12 @@ body {
 	text-align: center;
 }
 
+// Line style
+hr {
+	width: 92px;
+	border: 3px dashed $grey;
+}
+
 
 // Headings and links font
 h1, h2, h3, h4, h5, a {
@@ -32,6 +38,13 @@ h1, h2, h3, h4, h5, a {
 // Remove default margin
 h1 {
 	margin: 0;
+}
+
+// h3 Styles
+h3 {
+	font-size: 24px;
+	color: $red;
+	margin-bottom: 0;
 }
 
 
@@ -47,6 +60,10 @@ li {
 }
 
 
+
+
+
+
 // Main Container
 .mainContainer {
 	width: 90%;
@@ -58,6 +75,22 @@ li {
 		max-width: 960px;
 	}
 }
+
+
+// Sections
+.about {
+	padding: 1em 0;
+}
+
+.subText {
+	margin-bottom: 3em;
+}
+
+
+
+
+
+
 
 
 
