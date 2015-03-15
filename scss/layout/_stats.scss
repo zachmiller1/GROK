@@ -1,0 +1,27 @@
+/* ====================
+		Stats
+======================= */
+
+.stats {
+	background-color: $red;
+	background-image: url('../img/grok-pattern.png');
+	padding: 2em 0;
+
+	.stat {
+		margin-bottom: 3em;
+		color: $white;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		p {
+			margin: 0;
+			font-size: 20px;
+		}
+
+		.statNumber {
+			font-size: 42px;
+		}
+	}	
+}
