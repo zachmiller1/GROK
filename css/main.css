@@ -416,11 +416,12 @@ li {
     .mainContainer {
       max-width: 960px; } }
 
-.about {
+.about, .speakers {
   padding: 1em 0; }
 
 .subText {
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+  font-size: 16px; }
 
 .clearfix:before, .mainContainer:before,
 .clearfix:after,
@@ -606,5 +607,23 @@ li {
       font-size: 20px; }
     .stats .stat .statNumber {
       font-size: 42px; }
+
+/* ====================
+		Speakers
+======================= */
+.speakers .speaker {
+  margin-bottom: 3em; }
+  .speakers .speaker .name {
+    font-size: 20px;
+    color: #d6665a;
+    margin: 0; }
+  .speakers .speaker .company {
+    margin: 0;
+    color: #75a48b;
+    font-size: 16px; }
+  .speakers .speaker img {
+    border: 5px solid #75a48b;
+    border-radius: 50%;
+    width: 50%; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+/* ====================
+		Speakers
+======================= */
+
+.speakers {
+
+	.speaker {
+		margin-bottom: 3em;
+
+		.name {
+			font-size: 20px;
+			color: $red;
+			margin: 0;
+		}
+
+		.company {
+			margin: 0;
+			color: $green;
+			font-size: 16px;
+		}
+
+		img {
+			border: 5px solid $green;
+			border-radius: 50%;
+			width: 50%;
+		}
+	}
+}
