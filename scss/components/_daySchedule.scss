@@ -1,0 +1,45 @@
+/* ====================
+	daySchedule
+======================= */
+
+.daySchedule {
+	border: 5px solid $green;
+	margin-bottom: 4em;
+
+	.head {
+		background: $green;
+		color: $white;
+		padding: 1.5em;
+	}
+
+	.lunch p {
+		font-size: 18px;
+		font-family: $mainfont;
+		text-transform: uppercase;
+	}
+
+	h4 {
+		margin: 0;
+		font-size: 20px;
+	}
+
+	p {
+		margin: 0;
+		font-size: 16px;
+	}
+
+	.breakdown {
+		text-align: left;
+		padding: 1em;
+	}
+
+	.title {
+		color: $red;
+		font-family: $mainfont;
+	}
+
+	.description {
+		font-size: 18px;
+		margin-bottom: 1em;
+	}
+}
