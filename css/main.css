@@ -416,7 +416,7 @@ li {
     .mainContainer {
       max-width: 960px; } }
 
-.about, .speakers {
+.about, .speakers, .testimonials {
   padding: 1em 0; }
 
 .subText {
@@ -625,5 +625,46 @@ li {
     border: 5px solid #75a48b;
     border-radius: 50%;
     width: 50%; }
+
+/* ====================
+	Testimonials
+======================= */
+.testimonials {
+  background-color: #d9cfb0;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding-top: 2em; }
+  .testimonials hr {
+    border-color: #fff;
+    margin-bottom: 4em; }
+  .testimonials .testimonial {
+    margin-bottom: 5em;
+    font-size: 16px; }
+  .testimonials blockquote:before {
+    color: #75a48b;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.15em;
+    vertical-align: -0.4em; }
+  .testimonials blockquote:after {
+    color: #75a48b;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.15em;
+    vertical-align: -0.6em; }
+  .testimonials img {
+    border: 3px solid #d6665a;
+    border-radius: 50%; }
+  .testimonials .testName {
+    margin: 0;
+    font-size: 14px; }
+  .testimonials .yearAttended {
+    font-size: 16px;
+    color: #d6665a;
+    margin-top: 0; }
 
 /*# sourceMappingURL=main.css.map */
