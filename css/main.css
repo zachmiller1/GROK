@@ -411,12 +411,28 @@ li {
 
 .bold {
   font-weight: 700;
-  font-size: 18px; }
+  font-size: 32px; }
 
 a {
   color: #2572ad; }
   a:visted {
     color: #328dd3; }
+
+.social li {
+  display: inline-block;
+  height: 24px;
+  width: 24px; }
+.social a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-indent: -1000em; }
+  .social a.facebook {
+    background: url("../img/facebook-green.png") no-repeat;
+    background-size: 100% auto; }
+  .social a.twitter {
+    background: url("../img/twitter-green.png") no-repeat;
+    background-size: 100% auto; }
 
 .mainContainer {
   width: 90%;
@@ -425,8 +441,8 @@ a {
     .mainContainer {
       max-width: 960px; } }
 
-.about, .speakers, .testimonials, .venues, .mainFooter {
-  padding: 1em 0; }
+.about, .speakers, .schedule, .testimonials, .venues, .mainFooter {
+  padding: 3.5em 0; }
 
 .subText {
   margin-bottom: 3em;
@@ -627,7 +643,8 @@ a {
   margin-bottom: 0; }
 .about .mainPoint .subText {
   margin-bottom: 3em;
-  margin-top: 0.25em; }
+  margin-top: 0.25em;
+  font-size: 14px; }
 
 /* ====================
 		Stats
@@ -651,15 +668,18 @@ a {
 		Speakers
 ======================= */
 .speakers .speaker {
-  margin-bottom: 3em; }
+  margin-bottom: 4em; }
+  .speakers .speaker:last-child {
+    margin-bottom: 0; }
   .speakers .speaker .name {
     font-size: 20px;
     color: #d6665a;
-    margin: 0; }
+    margin: 0;
+    font-family: "Volkhov", serif; }
   .speakers .speaker .company {
     margin: 0;
     color: #75a48b;
-    font-size: 16px; }
+    font-size: 14px; }
   .speakers .speaker img {
     border: 5px solid #75a48b;
     border-radius: 50%;
@@ -680,7 +700,9 @@ a {
     margin-bottom: 4em; }
   .testimonials .testimonial {
     margin-bottom: 5em;
-    font-size: 16px; }
+    font-size: 14px; }
+    .testimonials .testimonial:last-child {
+      margin-bottom: 0; }
   .testimonials blockquote:before {
     color: #75a48b;
     content: open-quote;
@@ -709,9 +731,6 @@ a {
 /* ====================
 	Schedule
 ======================= */
-.schedule {
-  padding: 1em 0 3em 0; }
-
 /* ====================
 	Register
 ======================= */
@@ -747,7 +766,10 @@ a {
 	Sponsors
 ======================= */
 .sponsors {
-  background-color: #d9cfb0; }
+  background-color: #d9cfb0;
+  padding: 2em 0; }
+  .sponsors h3 {
+    margin-top: 0; }
   .sponsors hr {
     border-color: #fff; }
   .sponsors .sponsorLogos a {
@@ -820,5 +842,11 @@ a {
     width: 70px;
     height: 62px;
     margin: 0 auto; }
+  .mainFooter .social a.facebook {
+    background: url("../img/facebook.png") no-repeat;
+    background-size: 100% auto; }
+  .mainFooter .social a.twitter {
+    background: url("../img/twitter.png") no-repeat;
+    background-size: 100% auto; }
 
 /*# sourceMappingURL=main.css.map */

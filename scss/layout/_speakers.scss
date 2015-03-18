@@ -5,18 +5,23 @@
 .speakers {
 
 	.speaker {
-		margin-bottom: 3em;
+		margin-bottom: 4em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 
 		.name {
 			font-size: 20px;
 			color: $red;
 			margin: 0;
+			font-family: $mainfont;
 		}
 
 		.company {
 			margin: 0;
 			color: $green;
-			font-size: 16px;
+			font-size: 14px;
 		}
 
 		img {

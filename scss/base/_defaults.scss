@@ -59,11 +59,13 @@ li {
 	list-style: none;
 }
 
+// Bold styling
 .bold {
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 32px;
 }
 
+// Normal link styles
 a {
 	color: $blue;
 
@@ -71,6 +73,37 @@ a {
 		color: $lightblue;
 	}
 }
+
+
+
+// Social Media Icons Using PNG Images
+.social {
+	
+	li {
+		display: inline-block;
+		height: 24px;
+		width: 24px;
+	}
+
+	a {
+		display: block;
+		width: 24px;
+		height: 24px;
+		text-indent: -1000em;
+
+		&.facebook {
+			background: url('../img/facebook-green.png') no-repeat;
+			background-size: 100% auto;
+
+		}
+
+		&.twitter {
+			background: url('../img/twitter-green.png') no-repeat;
+			background-size: 100% auto;
+		}
+	}
+}
+
 
 
 
@@ -95,8 +128,8 @@ a {
 
 
 // Sections
-.about, .speakers, .testimonials, .venues, .mainFooter {
-	padding: 1em 0;
+.about, .speakers, .schedule, .testimonials, .venues, .mainFooter {
+	padding: 3.5em 0;
 }
 
 .subText {

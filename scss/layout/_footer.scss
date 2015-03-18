@@ -51,4 +51,20 @@
 		margin: 0 auto;
 	}
 
+	.social {
+
+		a {
+
+			&.facebook {
+				background: url('../img/facebook.png') no-repeat;
+				background-size: 100% auto;
+
+			}
+
+			&.twitter {
+				background: url('../img/twitter.png') no-repeat;
+				background-size: 100% auto;
+			}
+		}
+	}
 }
