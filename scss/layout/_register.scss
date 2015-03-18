@@ -1,0 +1,17 @@
+/* ====================
+	Register
+======================= */
+
+.register {
+	background: $red;
+	background-image: url('../img/grok-pattern.png');
+	padding: 2em 0;
+
+	h3, p {
+		color: $white;
+	}
+
+	hr {
+		border-color: $white;
+	}
+}

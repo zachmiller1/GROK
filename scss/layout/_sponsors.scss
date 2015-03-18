@@ -1,0 +1,57 @@
+/* ====================
+	Sponsors
+======================= */
+
+.sponsors {
+	background-color: $tan;
+
+	hr {
+		border-color: $white;
+	}
+
+	.sponsorLogos a {
+		display: block;
+		text-indent: -1000em;
+		margin-bottom: 2em;
+	}
+
+	.invision {
+		background-image: url('../img/invision.png');
+		background-repeat: no-repeat;
+		width: 152px;
+		height: 52px;
+		margin: 0 auto;
+	}
+
+	.mailchimp {
+		background-image: url('../img/mailchimp.png');
+		background-repeat: no-repeat;
+		width: 166px;
+		height: 41px;
+		margin: 0 auto;
+	}
+
+	.squarespace {
+		background-image: url('../img/squarespace.png');
+		background-repeat: no-repeat;
+		width: 74px;
+		height: 50px;
+		margin: 0 auto;
+	}
+
+	.treehouse {
+		background-image: url('../img/treehouse.png');
+		background-repeat: no-repeat;
+		width: 62px;
+		height: 55px;
+		margin: 0 auto;
+	}
+
+	.worthwhile {
+		background-image: url('../img/worthwhile.png');
+		background-repeat: no-repeat;
+		width: 70px;
+		height: 54px;
+		margin: 0 auto;
+	}
+}
