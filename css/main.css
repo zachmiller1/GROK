@@ -586,6 +586,10 @@ a {
 ========================= */
 .hero {
   background-color: #d9cfb0; }
+  @media screen and (min-width: 768px) {
+    .hero .heroIntro {
+      float: right;
+      margin-top: 30px; } }
   .hero h2 {
     margin-top: 80px;
     margin-bottom: 0;
@@ -593,6 +597,9 @@ a {
     font-family: "Merriweather", serif;
     font-weight: 300;
     text-transform: uppercase; }
+    @media screen and (min-width: 768px) {
+      .hero h2 {
+        font-size: 38px; } }
   .hero .GROKtext {
     background-image: url("../img/GROK.png");
     background-position: center center;
@@ -600,14 +607,29 @@ a {
     width: 173px;
     height: 53px;
     margin: 0 auto; }
+    @media screen and (min-width: 768px) {
+      .hero .GROKtext {
+        float: left;
+        width: 232px;
+        height: 73px;
+        margin-left: 7px; } }
   .hero .heroDate {
     font-size: 19px;
     margin-top: 5px; }
+    @media screen and (min-width: 768px) {
+      .hero .heroDate {
+        font-size: 25px;
+        margin-bottom: 0; } }
   .hero .tickets {
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.5px;
     margin-bottom: 0px; }
+    @media screen and (min-width: 768px) {
+      .hero .tickets {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 5px; } }
   .hero .grokman {
     background-image: url("../img/GrokMan.png");
     background-position: center center;
@@ -616,6 +638,12 @@ a {
     height: 220px;
     margin: 0 auto;
     margin-top: 40px; }
+    @media screen and (min-width: 768px) {
+      .hero .grokman {
+        float: left;
+        width: 400px;
+        height: 305px;
+        margin-top: 126px; } }
 
 /* ====================
 	About Section
