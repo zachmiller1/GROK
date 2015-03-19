@@ -402,6 +402,10 @@ h3 {
   font-size: 22px;
   color: #d6665a;
   margin-bottom: 0; }
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 32px;
+      margin-bottom: 0; } }
 
 ul {
   padding: 0; }
@@ -669,6 +673,13 @@ a {
   font-weight: 300;
   margin-top: 0.75em;
   margin-bottom: 0; }
+@media screen and (min-width: 768px) {
+  .about .mainPoint {
+    width: 31%;
+    float: left;
+    margin-right: 1.6em; }
+    .about .mainPoint:last-child {
+      margin-right: 0; } }
 .about .mainPoint .subText {
   margin-bottom: 3em;
   margin-top: 0.25em;
@@ -684,6 +695,14 @@ a {
   .stats .stat {
     margin-bottom: 3em;
     color: #fff; }
+    @media screen and (min-width: 768px) {
+      .stats .stat {
+        float: left;
+        width: 20%;
+        margin-right: 3.2em;
+        margin-bottom: 0; }
+        .stats .stat:last-child {
+          margin-right: 0; } }
     .stats .stat:last-child {
       margin-bottom: 0; }
     .stats .stat p {

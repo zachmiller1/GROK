@@ -11,6 +11,17 @@
 		margin-bottom: 3em;
 		color: $white;
 
+		@media screen and (min-width: 768px) {
+			float: left;
+			width: 20%;
+			margin-right: 3.2em;
+			margin-bottom: 0;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
 		&:last-child {
 			margin-bottom: 0;
 		}
