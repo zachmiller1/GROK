@@ -726,7 +726,7 @@ a {
       margin-right: 0; } }
 @media screen and (min-width: 960px) {
   .about .mainPoint {
-    margin-right: 2.4em; } }
+    margin-right: 2.3em; } }
 .about .mainPoint .subText {
   margin-bottom: 3em;
   margin-top: 0.25em;
@@ -865,6 +865,14 @@ a {
 /* ====================
 	Schedule
 ======================= */
+@media screen and (min-width: 960px) {
+  .schedule .daySchedule {
+    float: left;
+    width: 30%;
+    margin-right: 2em; }
+    .schedule .daySchedule:last-child {
+      margin-right: 0; } }
+
 /* ====================
 	Register
 ======================= */
@@ -897,6 +905,13 @@ a {
   margin-bottom: 5em; }
   .venues .venue:last-child {
     margin-bottom: 0; }
+  @media screen and (min-width: 960px) {
+    .venues .venue {
+      width: 45%;
+      float: left;
+      margin-right: 6.7em; }
+      .venues .venue:last-child {
+        margin-right: 0; } }
 .venues h4 {
   font-size: 20px;
   color: #d6665a;
@@ -923,6 +938,9 @@ a {
     margin-top: 0; }
   .sponsors hr {
     border-color: #fff; }
+  @media screen and (min-width: 768px) {
+    .sponsors .becomeSponsor {
+      margin-bottom: 3em; } }
   .sponsors .sponsorLogos a {
     display: block;
     text-indent: -1000em;
@@ -931,6 +949,9 @@ a {
       .sponsors .sponsorLogos a {
         float: left;
         margin-right: 2.1em; } }
+    @media screen and (min-width: 960px) {
+      .sponsors .sponsorLogos a {
+        margin-right: 6em; } }
   .sponsors .invision {
     background-image: url("../img/invision.png");
     background-repeat: no-repeat;
@@ -979,6 +1000,9 @@ a {
         margin-bottom: 0; }
         .mainFooter .footerColumn:last-child {
           margin-right: 0; } }
+    @media screen and (min-width: 960px) {
+      .mainFooter .footerColumn {
+        margin-right: 8.9em; } }
   .mainFooter h5 {
     font-size: 16px;
     margin: 0; }

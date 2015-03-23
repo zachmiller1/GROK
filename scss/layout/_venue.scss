@@ -10,6 +10,16 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
+
+		@media screen and (min-width: 960px) {
+			width: 45%;
+			float: left;
+			margin-right: 6.7em;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
 	}
 
 	h4 {

@@ -14,14 +14,27 @@
 		border-color: $white;
 	}
 
-	.sponsorLogos a {
-		display: block;
-		text-indent: -1000em;
-		margin-bottom: 2em;
-
+	.becomeSponsor {
 		@media screen and (min-width: 768px) {
-			float: left;
-			margin-right: 2.1em;
+			margin-bottom: 3em;
+		}
+	}
+
+	.sponsorLogos {
+
+		a {
+			display: block;
+			text-indent: -1000em;
+			margin-bottom: 2em;
+
+			@media screen and (min-width: 768px) {
+				float: left;
+				margin-right: 2.1em;
+			}
+
+			@media screen and (min-width: 960px) {
+				margin-right: 6em;
+			}
 		}
 	}
 
