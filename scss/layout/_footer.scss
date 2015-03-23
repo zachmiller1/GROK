@@ -12,6 +12,16 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
+
+		@media screen and (min-width: 768px) {
+			float: left;
+			margin-right: 2.5em;
+			margin-bottom: 0;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
 	}
 
 	h5 {
