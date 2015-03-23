@@ -443,6 +443,7 @@ a {
   margin: 0 auto; }
   @media screen and (min-width: 960px) {
     .mainContainer {
+      width: 100%;
       max-width: 960px; } }
 
 .about, .speakers, .schedule, .testimonials, .venues, .mainFooter {
@@ -483,6 +484,10 @@ a {
   .button:hover {
     background: #669a7e;
     color: #d9cfb0; }
+  @media screen and (min-width: 960px) {
+    .button {
+      font-size: 20px;
+      padding: 0.825em 3em; } }
 
 /* ====================
 	daySchedule
@@ -539,6 +544,9 @@ a {
         left: -11px;
         height: 70px;
         width: 70px; } }
+    @media screen and (min-width: 960px) {
+      .mainHeader .logoReplace {
+        top: 5px; } }
     .mainHeader .logoReplace:hover {
       background-image: url("../img/round-grok-logo-tan.png");
       transform: rotate(360deg);
@@ -594,6 +602,9 @@ a {
           padding-bottom: 1.75em; }
           .mainHeader #mainNav a:hover {
             color: #d9cfb0; } }
+      @media screen and (min-width: 960px) {
+        .mainHeader #mainNav a {
+          font-size: 16px; } }
 
 /* ======================
 		Hero Section
@@ -604,6 +615,9 @@ a {
     .hero .heroIntro {
       float: right;
       margin-top: 30px; } }
+  @media screen and (min-width: 960px) {
+    .hero .heroIntro {
+      margin-right: 1.5em; } }
   .hero h2 {
     margin-top: 80px;
     margin-bottom: 0;
@@ -614,6 +628,9 @@ a {
     @media screen and (min-width: 768px) {
       .hero h2 {
         font-size: 38px; } }
+    @media screen and (min-width: 960px) {
+      .hero h2 {
+        font-size: 54px; } }
   .hero .GROKtext {
     background-image: url("../img/GROK.png");
     background-position: center center;
@@ -627,6 +644,10 @@ a {
         width: 232px;
         height: 73px;
         margin-left: 7px; } }
+    @media screen and (min-width: 960px) {
+      .hero .GROKtext {
+        width: 335px;
+        height: 106px; } }
   .hero .heroDate {
     font-size: 19px;
     margin-top: 5px; }
@@ -634,6 +655,9 @@ a {
       .hero .heroDate {
         font-size: 25px;
         margin-bottom: 0; } }
+    @media screen and (min-width: 960px) {
+      .hero .heroDate {
+        font-size: 36px; } }
   .hero .tickets {
     font-size: 26px;
     font-weight: 700;
@@ -644,6 +668,9 @@ a {
         font-size: 30px;
         margin-top: 20px;
         margin-bottom: 5px; } }
+    @media screen and (min-width: 960px) {
+      .hero .tickets {
+        font-size: 42px; } }
   .hero .grokman {
     background-image: url("../img/GrokMan.png");
     background-position: center center;
@@ -658,6 +685,10 @@ a {
         width: 400px;
         height: 305px;
         margin-top: 126px; } }
+    @media screen and (min-width: 960px) {
+      .hero .grokman {
+        width: 550px;
+        height: 420px; } }
 
 /* ====================
 	About Section
@@ -683,6 +714,9 @@ a {
   font-weight: 300;
   margin-top: 0.75em;
   margin-bottom: 0; }
+  @media screen and (min-width: 960px) {
+    .about h4 {
+      font-size: 28px; } }
 @media screen and (min-width: 768px) {
   .about .mainPoint {
     width: 31%;
@@ -690,11 +724,17 @@ a {
     margin-right: 1.6em; }
     .about .mainPoint:last-child {
       margin-right: 0; } }
+@media screen and (min-width: 960px) {
+  .about .mainPoint {
+    margin-right: 2.4em; } }
 .about .mainPoint .subText {
   margin-bottom: 3em;
   margin-top: 0.25em;
   font-size: 14px;
   width: 100%; }
+  @media screen and (min-width: 960px) {
+    .about .mainPoint .subText {
+      font-size: 16px; } }
 
 /* ====================
 		Stats
@@ -703,6 +743,9 @@ a {
   background-color: #d6665a;
   background-image: url("../img/grok-pattern.png");
   padding: 2em 0; }
+  @media screen and (min-width: 960px) {
+    .stats {
+      padding: 4em 0; } }
   .stats .stat {
     margin-bottom: 3em;
     color: #fff; }
@@ -714,6 +757,10 @@ a {
         margin-bottom: 0; }
         .stats .stat:last-child {
           margin-right: 0; } }
+  @media screen and (min-width: 768px) and (min-width: 960px) {
+    .stats .stat {
+      margin-right: 4.5em; } }
+
     .stats .stat:last-child {
       margin-bottom: 0; }
     .stats .stat p {
@@ -723,6 +770,9 @@ a {
     .stats .stat .statNumber {
       font-size: 42px;
       font-weight: 400; }
+      @media screen and (min-width: 960px) {
+        .stats .stat .statNumber {
+          font-size: 48px; } }
 
 /* ====================
 		Speakers
@@ -735,6 +785,14 @@ a {
       margin-right: 4.8em;
       float: left; }
       .speakers .speaker:last-child, .speakers .speaker:nth-child(odd) {
+        margin-right: 0; } }
+  @media screen and (min-width: 960px) {
+    .speakers .speaker {
+      margin-right: 4.5em;
+      width: 20%; }
+      .speakers .speaker:nth-child(odd) {
+        margin-right: 4.5em; }
+      .speakers .speaker:last-child {
         margin-right: 0; } }
   .speakers .speaker:last-child {
     margin-bottom: 0; }
@@ -751,6 +809,9 @@ a {
     border: 5px solid #75a48b;
     border-radius: 50%;
     width: 50%; }
+    @media screen and (min-width: 960px) {
+      .speakers .speaker img {
+        width: 100%; } }
 
 /* ====================
 	Testimonials

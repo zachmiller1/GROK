@@ -123,6 +123,7 @@ a {
 	@extend .clearfix;
 
 	@media screen and (min-width: 960px) {
+		width: 100%;
 		max-width: 960px;
 	}
 }

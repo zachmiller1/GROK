@@ -13,4 +13,9 @@
 		background: darken($green, 5%);
 		color: $tan;
 	}
+
+	@media screen and (min-width: 960px) {
+		font-size: 20px;
+		padding: 0.825em 3em;
+	}
 }
