@@ -6,6 +6,11 @@
 	background-color: $tan;
 
 	.heroIntro {
+
+		@media screen and (min-width: 533px) {
+			margin-top: 40px;
+		}
+
 		@media screen and (min-width: 768px) {
 			float: right;
 			margin-top: 30px;
@@ -16,6 +21,10 @@
 		}
 	}
 
+	.button {
+		font-size: 20px;
+	}
+
 	h2 {
 		margin-top: 80px;
 		margin-bottom: 0;
@@ -23,6 +32,10 @@
 		font-family: $specialfont;
 		font-weight: 300;
 		text-transform: uppercase;
+
+		@media screen and (min-width: 533px) {
+			font-size: 54px;
+		}
 
 		@media screen and (min-width: 768px) {
 			font-size: 38px;
@@ -41,6 +54,11 @@
 		height: 53px;
 		margin: 0 auto;
 
+		@media screen and (min-width: 533px) {
+			width: 335px;
+			height: 106px;
+		}
+
 		@media screen and (min-width: 768px) {
 			float: left;
 			width: 232px;
@@ -58,6 +76,10 @@
 		font-size: 19px;
 		margin-top: 5px;
 
+		@media screen and (min-width: 533px) {
+			font-size: 36px;
+		}
+
 		@media screen and (min-width: 768px) {
 			font-size: 25px;
 			margin-bottom: 0;
@@ -73,6 +95,10 @@
 		font-weight: 700;
 		letter-spacing: 0.5px;
 		margin-bottom: 0px;
+
+		@media screen and (min-width: 533px) {
+			font-size: 42px;
+		}
 
 		@media screen and (min-width: 768px) {
 			font-size: 30px;
@@ -93,6 +119,14 @@
 		height: 220px;
 		margin: 0 auto;
 		margin-top: 40px;
+
+		@media screen and (min-width: 533px) {
+			background-position: center bottom;
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 85%;
+			height: 40vh;
+		}
 
 		@media screen and (min-width: 768px) {
 			float: left;
