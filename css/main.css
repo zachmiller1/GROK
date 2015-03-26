@@ -702,7 +702,7 @@ a {
   background-color: #75a48b;
   background-image: url("../img/grok-pattern.png");
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 2em 0; }
   .about .iconBox img {
     margin: 0 auto;
