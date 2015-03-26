@@ -837,6 +837,11 @@ a {
         width: 80%;
         margin-right: auto;
         margin-left: auto; } }
+    @media screen and (min-width: 960px) {
+      .testimonials .testimonial {
+        float: left;
+        width: 33%;
+        margin-bottom: 0; } }
   .testimonials blockquote:before {
     color: #75a48b;
     content: open-quote;

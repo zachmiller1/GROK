@@ -29,6 +29,12 @@
 			margin-right: auto;
 			margin-left: auto;
 		}
+
+		@media screen and (min-width: 960px) {
+			float: left;
+			width: 33%;
+			margin-bottom: 0;
+		}
 	}
 
 	blockquote:before {
